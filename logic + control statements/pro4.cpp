@@ -1,0 +1,20 @@
+// Write a program to print all even numbers between 1 and 50.
+#include <iostream>
+using namespace std;
+
+int main() {
+
+    int num;
+    cout<<"Enter number to print all even numbers: ";
+ cin>>num;
+        cout<<"<--------Even Number-------->"<<endl; 
+
+ for (int i = 1; i <=num; i++)
+ {
+    if (i%2==0)
+    {
+        cout<<i<<endl;
+     } 
+ }
+  return 0; 
+}
